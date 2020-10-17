@@ -1,0 +1,19 @@
+.banner {
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0;
+}
+.search {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.searchInput {
+	border: 1px solid lightgray;
+	height: 38px;
+	width: 300px;
+}

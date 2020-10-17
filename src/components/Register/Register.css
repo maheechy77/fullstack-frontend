@@ -1,0 +1,54 @@
+.register > img {
+	height: 90px;
+}
+
+.register {
+	display: grid;
+	place-items: center;
+	height: 60vh;
+	width: 100%;
+}
+
+.register_form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid lightgray;
+	height: 500px;
+	width: 700px;
+	margin-top: 50px;
+}
+
+.register_input {
+	width: 350px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.register_input > input {
+	flex: 1;
+	border: none;
+	border-bottom: 1px solid lightgray;
+}
+.register_form > h4 {
+	font-weight: bolder !important;
+	margin-top: 20px;
+	border-radius: 5px;
+	font-weight: 400;
+	outline-width: 0;
+}
+
+.register_form > button {
+	width: 350px;
+	background-color: #4285f4;
+	color: white;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 20px;
+	outline-width: 0;
+}

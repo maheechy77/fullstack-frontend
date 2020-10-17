@@ -1,0 +1,43 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.header_logo > img {
+	height: 60px;
+	margin-left: 40px;
+}
+
+.header_nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	align-items: center;
+	flex: 0.5;
+}
+
+.header_navLink {
+	margin-left: 50px;
+}
+
+.header_navLink > a {
+	color: gray;
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 40px;
+	justify-content: space-between;
+	flex: 1;
+}
+
+.header_navButton {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 5px;
+	align-items: center;
+	flex: 1;
+}
+
+.headerBtn {
+	width: 120px;
+}

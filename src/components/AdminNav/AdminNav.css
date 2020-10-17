@@ -1,0 +1,25 @@
+.adminNav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	color: #2f3235;
+}
+.admin_nav {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 10px;
+}
+
+.admin_nav > a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: gray;
+	margin: 0 20px;
+}
+
+.logo > img {
+	height: 70px;
+	margin: 20px 0;
+}

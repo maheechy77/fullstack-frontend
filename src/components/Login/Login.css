@@ -1,0 +1,35 @@
+.login > img {
+	height: 90px;
+}
+
+.login {
+	display: grid;
+	place-items: center;
+	height: 60vh;
+	width: 100%;
+}
+
+.login_form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid lightgray;
+	height: 400px;
+	width: 500px;
+	margin-top: 50px;
+}
+
+.login_form > h2 {
+	font-weight: bold;
+}
+
+.login_form > button {
+	width: 350px;
+	border: 1px solid lightgray;
+	height: 50px;
+	border-radius: 999px;
+	font-weight: 600;
+	margin-top: 20px;
+	outline-width: 0;
+}
